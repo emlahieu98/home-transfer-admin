@@ -1,0 +1,54 @@
+.form-auth {
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem;
+    height: 60rem;
+    background-color: $bgColor;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    &__section {
+    }
+}
+.icon-image {
+    width: 10rem;
+    height: 10rem;
+    background: url('../images/back.jpeg');
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 50%;
+    @include responsive(mobile) {
+        width: 0;
+        height: 0;
+    }
+    @include responsive(tablet) {
+        width: 0;
+        height: 0;
+    }
+}
+.text-avatar {
+    text-align: center;
+    font-size: 2.2rem;
+}
+.bg {
+    justify-content: center;
+    background-image: url('../images/background.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.group__about {
+    justify-content: space-around;
+}
+.login-text {
+    font-size: 1.4rem;
+    position: relative;
+    top: 12px;
+    background: $bgColor;
+    z-index: 2;
+}
+.divider {
+    border-bottom: 1px solid rgb(56, 68, 82);
+    margin: 0 auto;
+    width: 73%;
+}

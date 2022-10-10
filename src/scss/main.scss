@@ -1,0 +1,25 @@
+// import font
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900);
+
+// import ./components/scss abstracts
+@import './abstracts/variables';
+@import './abstracts/mixin';
+@import './abstracts/extends';
+
+// import base
+@import './base/reset';
+
+// import ./components/scss utils
+@import './utils/utils';
+
+// import ./components/scss components
+@import './components/notFound';
+@import './components/auth';
+@import './components/adminsidebar';
+@import './components/adminheader';
+
+// import ./components/scss layout
+@import './layout/grid';
+
+// import antd layout
+@import 'antd/dist/antd.css';
